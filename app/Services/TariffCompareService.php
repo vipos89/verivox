@@ -33,11 +33,4 @@
 
         }
 
-        private function calculateModel1($tariff, $consumption)
-        {
-            return $tariff['baseCost'] * 12 +
-                ($tariff['additionalKwhCost']* $consumption)/100;
-
-        }
-
     }
